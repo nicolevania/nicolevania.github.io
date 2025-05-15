@@ -1,0 +1,381 @@
+body{
+    font-size: 30px;
+    line-height: 35px;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-style: normal;
+    color: rgb(20, 19, 19);
+    background-color: crimson;
+    padding: 20px;
+    margin: 0px;
+}
+
+
+img {
+    width: 100%;
+}
+
+p{
+    width: 500px;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+
+}
+div.title {
+    font-size: 300px;
+    line-height: 50px;
+    font-style: italic;
+    font-weight: 700;
+    margin: 20px;
+}
+
+div.author{
+    font-size: 30px;
+    line-height: 70px;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-style: normal;
+    margin: 20px;
+
+}
+
+div.aysh{
+    font-size: 120px;
+    line-height: 50px;
+    font-style: italic;
+    font-weight: 700;
+    margin: 20px;
+}
+
+
+div.caption{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+div.font-white{
+    color: ghostwhite;
+    font-size:200px;
+    line-height: 150px;
+    padding: 20px;
+
+}
+
+div.font-burgundy{
+    color: darkred;
+}
+
+div.font-black{
+    color: black;
+}
+
+div.body font{
+    font-size: 68px;
+}
+
+
+div.bg-black{
+    background-color: rgb(0, 0, 0);
+    width: 2000px;
+    height: 700px;
+    margin: 0px;
+
+
+}
+
+div.cover{
+    width: 800px;
+    height: 500px;
+    font-family: Neue Haas Grotesk Text Pro ;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 22px;
+    line-height: 25px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+p{
+    color: seashell;
+    margin: 40px;
+}
+
+/* margin */
+
+div.mb{
+    margin: 40px;
+}
+div.mblarge{
+    margin: 100px;
+}
+
+div.mt{
+    margin-top: 100px;
+}
+
+div.ml{
+    margin-left: 100px;
+}
+
+div.mr{
+    margin-right: 100px;
+}
+
+div.mrauto{
+    margin-left: auto;
+}
+
+div.mcenter{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* padding */
+
+div.pad{
+    padding: 20px;
+}
+
+div.pad50{
+    padding: 50px;
+}
+
+div.pad80{
+    padding: 80px;
+}
+
+
+/* type size */
+
+div.largetext{
+    font-size: 55px;
+    line-height: 50px;
+    font-family:"neue-haas-grotesk-display", sans-serif;
+}
+
+div.mediumtext{
+    font-size: 28px;
+    line-height: 28px;
+}
+
+div.smalltext{
+    font-size: 19px;
+    line-height: 19px;
+}
+
+div.title {
+    font-size: 55px;
+    line-height: 50px;
+    font-family:"neue-haas-grotesk-display", sans-serif;
+}
+
+div.subtitle{
+    font-size: 28px;
+    line-height: 28px;
+}
+
+div.bodytext{
+    font-size: 19px;
+    line-height: 19px;
+}
+
+div.author{
+    font-size: 30px;
+    line-height: 70px;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-style: normal;
+    margin: 20px;
+}
+
+div.largetextbold{
+    font: 300px;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-style: italic;
+    font-weight: 700;
+}
+
+div.smalltextbold{
+    font-size: 22px;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-style: bold;
+}
+
+div.hugeblurtext{
+    font-size: 120px;
+    filter: blur(3px);
+}
+
+div.bigblurtext{
+    font-size: 100px;
+    filter: blur(3px);
+}
+
+div.mediumblurtext{
+    font-size: 80px;
+    filter: blur(3px);
+}
+
+div.smallblurtext{
+    font-size: 20px;
+    filter: blur(3px);
+}
+
+div.quote{
+
+}
+
+/* colour */
+
+div.red{
+    color: #ed2224;
+}
+
+div.cream{
+    color: #faf6f2;
+}
+
+div.black{
+    color: black;
+}
+
+div.blue{
+    color: #0059ff;
+}
+
+div.bg-black{
+    color: black;
+}
+
+div.bg-red{
+    color: #ed2224;
+}
+
+div.bg-cream{
+    color: #faf6f2;
+}
+
+div.bg-blue{
+    color: #0059ff;
+}
+
+
+/* typography */ 
+
+div.main{
+    font-family:"neue-haas-grotesk-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+div.cursive{
+    font-family: "annabelle-jf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* layout 4/4 3/4 2/4 1/4 */ 
+
+div.width50{
+    width: 50%;
+}
+
+div.width25{
+    width: 25%;
+}
+
+div.width15{
+    width: 15%;
+}
+
+div.width10{
+    width: 10%;
+}
+
+/* layout 3/3 2/3 1/3 1/2 */ 
+
+
+/* widths */ 
+
+div.width100{
+    width: 100%;
+}
+
+div.width66{
+    width: 66.666%;
+}
+
+div.width33{
+    width: 33.333%;
+}
+
+
+
+/* images */ 
+
+div.largeimage{
+    width: 100%;
+
+}
+
+div.mediumimage{
+    width: 55%;
+}
+
+div.smallimage{
+    width: 40%;
+}
+
+div.tinyimage{
+    width: 20%;
+}
+
+/*layouts see article http://css-tricks.com/snippets/css/a-guide-to-flexbox/ */ 
+
+div.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.flexend {
+    justify-content: flex-end;
+}
+
+div.flexcenter{
+    justify-content: ;
+}
+
+div.alignend{
+    align-items: flex-end;
+}
+
+div.aligncenter{
+    align-items: center;
+}
+
+/* borders */ 
+
+div.card{
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #faf6f2;
+    border-radius: 50px;
+    color: black;
+}
+
+div.cardblack{
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #000000;
+    border-radius: 50px;
+    color: #faf6f2;
+}
+
+div.box{
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #000000;
+    color: #faf6f2;
+}
+
+div.lineweight{
+    line-height: 100px;
+}
