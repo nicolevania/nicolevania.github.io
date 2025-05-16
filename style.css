@@ -14,6 +14,11 @@ img {
     width: 100%;
 }
 
+img, video{
+    width: 100%;
+    display: block;
+}
+
 p{
     width: 500px;
     color: rgb(255, 255, 255);
@@ -378,4 +383,17 @@ div.box{
 
 div.lineweight{
     line-height: 100px;
+}
+
+/* hero video*/
+
+div.herovideo{
+    width: 400px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+video{
+    border-radius: 20px;
 }
