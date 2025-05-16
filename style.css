@@ -10,9 +10,7 @@ body{
 }
 
 
-img {
-    width: 100%;
-}
+
 
 img, video{
     width: 100%;
@@ -190,8 +188,16 @@ div.author{
     margin: 20px;
 }
 
+div.hugetext{
+    font-size: 170px;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
 div.largetextbold{
     font: 300px;
+    line-height: 300px;
     font-family: "neue-haas-grotesk-display", sans-serif;
     font-style: italic;
     font-weight: 700;
@@ -392,8 +398,4 @@ div.herovideo{
     position: fixed;
     bottom: 20px;
     right: 20px;
-}
-
-video{
-    border-radius: 20px;
 }
