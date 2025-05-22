@@ -5,11 +5,9 @@ body{
     font-style: normal;
     color: rgb(20, 19, 19);
     background-color: crimson;
-    padding: 20px;
+    padding: 0px;
     margin: 0px;
 }
-
-
 
 
 img, video{
@@ -133,6 +131,10 @@ div.mcenter{
 
 /* padding */
 
+div.pad10{
+    padding: 10px;
+}
+
 div.pad{
     padding: 20px;
 }
@@ -194,6 +196,13 @@ div.hugetext{
     font-weight: bold;
     
 }
+div.mediumtextbold{
+    font: 28px;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-style: bold;
+    line-height: 28px;
+
+}
 
 div.largetextbold{
     font: 300px;
@@ -203,10 +212,24 @@ div.largetextbold{
     font-weight: 700;
 }
 
+div.bigtextbold{
+    font: 300px;
+    line-height: 300px;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+
+    font-weight: bold;
+}
+
 div.smalltextbold{
     font-size: 22px;
     font-family: "neue-haas-grotesk-display", sans-serif;
     font-style: bold;
+}
+
+div.mainblurtext{
+    font-size: 250px;
+    filter: blur(3px);
+    margin-bottom: 100px
 }
 
 div.hugeblurtext{
@@ -227,6 +250,20 @@ div.mediumblurtext{
 div.smallblurtext{
     font-size: 20px;
     filter: blur(3px);
+}
+
+div.mediumblur{
+    font-size: 28px;
+    line-height: 28px;
+    filter: blur(3px);
+}
+
+div.bold{
+    font-style: bold;
+}
+
+div.italic{
+    font-style: italic;
 }
 
 div.quote{
@@ -301,6 +338,9 @@ div.width10{
     width: 10%;
 }
 
+div.width5{
+    width: 5%;
+}
 /* layout 3/3 2/3 1/3 1/2 */ 
 
 
@@ -319,6 +359,11 @@ div.width33{
 }
 
 
+/* other */ 
+
+div.width80{
+    width: 80%;
+}
 
 /* images */ 
 
@@ -372,12 +417,23 @@ div.card{
     color: black;
 }
 
+div.smallcard{
+    background-color: gainsboro;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
 div.cardblack{
     margin-top: 30px;
     padding: 30px;
     background-color: #000000;
     border-radius: 50px;
     color: #faf6f2;
+}
+div.longcard{
+    background-color: rgb(22, 21, 21);
+    margin-top: 0px;
+    width: 2240px;
 }
 
 div.box{
@@ -391,6 +447,15 @@ div.lineweight{
     line-height: 100px;
 }
 
+div.spacer {
+    display: block;
+    height: 100px; 
+}
+
+div.spacer300 {
+    display: block;
+    height: 300px; 
+}
 /* hero video*/
 
 div.herovideo{
