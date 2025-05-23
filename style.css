@@ -150,6 +150,11 @@ div.pad80{
 
 /* type size */
 
+div.welcometext{
+    font-size: 150px;
+    line-height: 150px;
+    font-family:"neue-haas-grotesk-display", sans-serif;
+}
 div.largetext{
     font-size: 55px;
     line-height: 50px;
@@ -162,7 +167,7 @@ div.mediumtext{
 }
 
 div.smalltext{
-    font-size: 19px;
+    font-size: 22px;
     line-height: 19px;
 }
 
@@ -191,17 +196,17 @@ div.author{
 }
 
 div.hugetext{
-    font-size: 170px;
+    font-size: 12vw;
     font-style: italic;
     font-weight: bold;
-    
+    line-height: 9vw;
 }
+
 div.mediumtextbold{
     font: 28px;
     font-family: "neue-haas-grotesk-display", sans-serif;
     font-style: bold;
     line-height: 28px;
-
 }
 
 div.largetextbold{
@@ -227,9 +232,9 @@ div.smalltextbold{
 }
 
 div.mainblurtext{
-    font-size: 250px;
+    font-size: 9vw;
     filter: blur(3px);
-    margin-bottom: 100px
+    line-height: 30vw;
 }
 
 div.hugeblurtext{
@@ -269,6 +274,16 @@ div.italic{
 div.quote{
 
 }
+
+
+div.textcenter{
+    text-align: center;
+}
+
+div.textindent{
+    text-indent: 100px;
+}
+
 
 /* colour */
 
@@ -456,7 +471,30 @@ div.spacer300 {
     display: block;
     height: 300px; 
 }
-/* hero video*/
+
+/* welcome splash page */
+
+div.welcome {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:crimson;
+    color: white;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    cursor: pointer;
+  }
+  
+  div.welcome.visible {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+/* hero video */
 
 div.herovideo{
     width: 400px;
@@ -464,3 +502,34 @@ div.herovideo{
     bottom: 20px;
     right: 20px;
 }
+
+/* folio marks */
+
+div.folio{
+    position: fixed;
+    left: 0px;
+}
+
+/* Popups */
+
+div.popup{
+    position: fixed;
+    top: 200px;
+    left: 200px;
+    background-color:#ffffff;
+    width: 300px;
+    height: 300px;
+}
+
+div.hide{
+    display: none;
+}
+
+/* triggers and effects */
+
+body.update{
+    background-color: black;
+    color: crimson;
+}
+
+
