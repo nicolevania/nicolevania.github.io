@@ -15,6 +15,8 @@ img, video{
     display: block;
 }
 
+}
+
 p{
     width: 500px;
     color: rgb(255, 255, 255);
@@ -40,11 +42,19 @@ div.author{
 
 div.aysh{
     font-size: 120px;
+    font-style: italic;
+    font-weight: 700;
+    margin: 20px;
+}
+
+div.ayshnew{
+    font-size: 120px;
     line-height: 50px;
     font-style: italic;
     font-weight: 700;
     margin: 20px;
 }
+
 
 
 div.caption{
@@ -147,6 +157,13 @@ div.pad80{
     padding: 80px;
 }
 
+div.pad100{
+    padding: 100px;
+}
+
+div.pad120{
+    padding: 120px;
+}
 
 /* type size */
 
@@ -167,8 +184,20 @@ div.mediumtext{
 }
 
 div.smalltext{
+    font-size: 24px;
+    line-height: 19px;
+    position: fixed;
+}
+
+div.smalltextbody{
     font-size: 22px;
     line-height: 19px;
+}
+
+div.smalltextbdy{
+    font-size: 22px;
+    line-height: 19px;
+    text-align: left;
 }
 
 div.title {
@@ -205,10 +234,17 @@ div.hugetext{
 div.mediumtextbold{
     font: 28px;
     font-family: "neue-haas-grotesk-display", sans-serif;
-    font-style: bold;
+    font-weight: bold;
     line-height: 28px;
 }
 
+div.largebdytextbold{
+    font: 50px;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: bold;
+    line-height:50px;
+}
+}
 div.largetextbold{
     font: 300px;
     line-height: 300px;
@@ -218,12 +254,12 @@ div.largetextbold{
 }
 
 div.bigtextbold{
-    font: 300px;
-    line-height: 300px;
+    font: 450px;
     font-family: "neue-haas-grotesk-display", sans-serif;
-
     font-weight: bold;
 }
+
+line-height: 300px;
 
 div.smalltextbold{
     font-size: 22px;
@@ -234,12 +270,12 @@ div.smalltextbold{
 div.mainblurtext{
     font-size: 9vw;
     filter: blur(3px);
-    line-height: 30vw;
 }
 
 div.hugeblurtext{
-    font-size: 120px;
+    font-size: 6vw;
     filter: blur(3px);
+    line-height: 5vw;
 }
 
 div.bigblurtext{
@@ -284,6 +320,25 @@ div.textindent{
     text-indent: 100px;
 }
 
+div.textleft{
+    text-align: left;
+}
+
+div.textright{
+    text-align: right;
+}
+
+div.textjustify{
+    text-align: justify;
+}
+
+div.indentedtext{
+    text-indent: 40px;
+}
+
+div..indentedblock{
+    margin-left: 40px;
+}
 
 /* colour */
 
@@ -399,6 +454,20 @@ div.tinyimage{
     width: 20%;
 }
 
+div.imgtext{
+    display: flex;
+    flex-direction: row;
+    margin-inline: 270px;
+    padding: 10px;
+    align-items: center;
+    gap: 50px;
+}
+
+div.imageleft{
+    display: block;
+    margin-left: 0px;
+}
+
 /*layouts see article http://css-tricks.com/snippets/css/a-guide-to-flexbox/ */ 
 
 div.container{
@@ -422,6 +491,13 @@ div.aligncenter{
     align-items: center;
 }
 
+div.containerlayout {
+    background-color: #faf6f2;
+    padding: 20px;
+    border-radius: 20px;
+    width: fit-content;
+  }
+
 /* borders */ 
 
 div.card{
@@ -433,9 +509,11 @@ div.card{
 }
 
 div.smallcard{
-    background-color: gainsboro;
+    background-color: #faf6f2;
     margin-top: 30px;
     border-radius: 50px;
+    padding: 30px;
+    height: auto;
 }
 
 div.cardblack{
@@ -449,7 +527,30 @@ div.longcard{
     background-color: rgb(22, 21, 21);
     margin-top: 0px;
     width: 2240px;
+    height: auto;
 }
+
+div.imgcard{
+    background-color: #faf6f2;
+    border-radius: 50px;
+    width: auto;
+    height: auto;
+}
+
+div.circlered {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+  }
+
+  div.circleblack {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+  }
+  
 
 div.box{
     margin-top: 30px;
@@ -459,7 +560,11 @@ div.box{
 }
 
 div.lineweight{
-    line-height: 100px;
+    line-height: 160px;
+}
+
+div.bodylineweight{
+    line-height: 50px;
 }
 
 div.spacer {
