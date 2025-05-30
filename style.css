@@ -177,6 +177,11 @@ div.largetext{
     line-height: 50px;
     font-family:"neue-haas-grotesk-display", sans-serif;
 }
+div.paratext{
+    font-size: 65px;
+    line-height: 65px;
+    font-family:"neue-haas-grotesk-display", sans-serif;
+}
 
 div.mediumtext{
     font-size: 28px;
@@ -236,6 +241,13 @@ div.mediumtextbold{
     font-family: "neue-haas-grotesk-display", sans-serif;
     font-weight: bold;
     line-height: 28px;
+}
+
+div.smallbodybold{
+    font: 4vw;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: bold;
+    line-height: 2vw;
 }
 
 div.largebdytextbold{
@@ -567,6 +579,9 @@ div.bodylineweight{
     line-height: 50px;
 }
 
+div.paralineweight{
+    line-height: 80px;
+}
 div.spacer {
     display: block;
     height: 100px; 
