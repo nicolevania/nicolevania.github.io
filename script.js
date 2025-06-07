@@ -32,3 +32,50 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+let lastScrollTop = window.scrollY;
+let lastTime = performance.now();
+
+window.addEventListener("scroll", () => {
+    let now = performance.now();
+    let currentScrollTop = window.scrollY;
+
+    let deltaY = Math.abs(currentScrollTop - lastScrollTop);
+    let deltaTime = now - lastTime;
+
+    let speed = deltaY / (deltaTime / 1000); // pixels per second
+
+    if (speed > 1000) { // adjust threshold
+        document.getElementById("feedback").style.display = "block";
+    } else {
+        document.getElementById("feedback").style.display = "none";
+    }
+
+    lastScrollTop = currentScrollTop;
+    lastTime = now;
+});
+
+const text = document.getElementById('myText');
+
+window.addEventListener("scroll", () => {
+  text.classList.add('blur');
+
+  setTimeout(() => {
+    text.classList.remove('blur');
+  }, 	3000); // blur stays for 500ms
+});
+
+function resetTimer() {
+    clearTimeout(timer);
+    document.getElementById("attention").style.display = "none";
+    timer = setTimeout(() => {
+        document.getElementById("attention").style.display = "block";
+    }, 5000); // 5 seconds inactivity
+}
+
+window.addEventListener("mousemove", resetTimer);
+window.addEventListener("scroll", resetTimer);
+window.addEventListener("keydown", resetTimer);
+
+// Start the timer when page loads
+resetTimer();

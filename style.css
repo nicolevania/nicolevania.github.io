@@ -7,6 +7,7 @@ body{
     background-color: crimson;
     padding: 0px;
     margin: 0px;
+    height: 2000px; /* just to allow scrolling */
 }
 
 
@@ -41,18 +42,19 @@ div.author{
 }
 
 div.aysh{
-    font-size: 120px;
+    font-size: 80px;
     font-style: italic;
+    line-height: 200px;
     font-weight: 700;
     margin: 20px;
 }
 
 div.ayshnew{
     font-size: 120px;
-    line-height: 50px;
+    line-height: 180px;
     font-style: italic;
     font-weight: 700;
-    margin: 20px;
+    margin: 40px;
 }
 
 
@@ -145,8 +147,12 @@ div.pad10{
     padding: 10px;
 }
 
-div.pad{
+div.pad20{
     padding: 20px;
+}
+
+div.pad30{
+    padding: 30px;
 }
 
 div.pad50{
@@ -285,9 +291,11 @@ div.mainblurtext{
 }
 
 div.hugeblurtext{
-    font-size: 6vw;
+    font-size: 5vw;
     filter: blur(3px);
-    line-height: 5vw;
+    line-height: 4vw;
+    font-weight: bold;
+    
 }
 
 div.bigblurtext{
@@ -311,6 +319,23 @@ div.mediumblur{
     filter: blur(3px);
 }
 
+div.blur-text {
+    max-width: 800px;
+    margin: 100px auto;
+    text-align: center;
+    transition: filter 0.4s ease;
+  }
+  
+  div.blur-textleft {
+    max-width: 800px;
+    margin: 100px auto;
+    text-align: left;
+    transition: filter 0.4s ease;
+  }
+div.blur-text.blur {
+    filter: blur(3px);
+  }
+
 div.bold{
     font-style: bold;
 }
@@ -320,7 +345,8 @@ div.italic{
 }
 
 div.quote{
-
+    font-size: 65px;
+    line-height: 65px;
 }
 
 
@@ -402,11 +428,18 @@ div.cursive{
 }
 
 
+
 /* layout 4/4 3/4 2/4 1/4 */ 
 
 div.width50{
     width: 50%;
 }
+
+.widthm50 {
+    width: 600px;
+    margin: 50px auto;
+  }
+  
 
 div.width25{
     width: 25%;
@@ -520,6 +553,27 @@ div.card{
     color: black;
 }
 
+div.cardfill{
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 20px;
+    background-color: #faf6f2;
+    border-radius: 50px;
+    color: black;
+    height: 650px;
+}
+
+div.cardfillgif{
+    margin-top: 20px;
+    margin-left: 70px;
+    padding: 20px;
+    border-radius: 50px;
+    height: 650px;
+    background-color: #ffffff;
+    border: 1px solid #faf6f2;
+
+}
+
 div.smallcard{
     background-color: #faf6f2;
     margin-top: 30px;
@@ -535,6 +589,18 @@ div.cardblack{
     border-radius: 50px;
     color: #faf6f2;
 }
+
+
+div.blackcard{
+    margin-top: 0px;
+    padding: 0px;
+    width: 2240px;
+    background-color: #000000;
+    border-radius: 50px;
+    height: auto;
+
+}
+
 div.longcard{
     background-color: rgb(22, 21, 21);
     margin-top: 0px;
@@ -643,6 +709,18 @@ div.popup{
 
 div.hide{
     display: none;
+}
+
+div.loading-gif-wrapper {
+    margin: 20px auto;
+    padding: 80px;
+    max-width: 700px;
+    height: auto;
+}
+  
+div.tenor-gif-embed {
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 /* triggers and effects */
